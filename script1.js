@@ -99,7 +99,32 @@ if (kontaktKnapp)
     KontaktIfo2.style.display = "block"
     KontaktConteiner.style.display = "block"
     pElement.style.display = "block"
-    pElement.style.marginTop= "-40%"
+
+    pElement.style.position = 'fixed'; // Fixed positioning keeps it in the same place even when scrolling
+pElement.style.zIndex = '1000'; // High z-index to ensure it appears on top
+// pElement.style.left = '50%'; // Centering horizontally
+pElement.style.top = '10px';
+    // Ensure this script runs after the HTML elements are parsed
+// document.addEventListener('DOMContentLoaded', function() {
+//     // Assuming pElement should reference an existing <p> element in the document
+//     const pElement = document.querySelector('p'); // Adjust the selector as needed
+    
+//     function applyResponsiveFeatures() {
+//         if (window.innerWidth <= 768) {
+//             pElement.style.marginTop= "-347%"
+//         } else {
+//             pElement.style.marginTop= "-40%"
+//         }
+//     }
+
+//     // Add event listener for window resize
+//     window.addEventListener('resize', applyResponsiveFeatures);
+
+//     // Apply initially to set the correct styles based on current window size
+//     applyResponsiveFeatures();
+// });
+
+    // pElement.style.marginTop= "-347%"
 
     
     })
