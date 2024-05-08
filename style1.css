@@ -1,0 +1,199 @@
+body {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.oal_bilde {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: auto;
+    border-radius: 50%;
+    margin: 50px;
+    margin-top: -200px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+.andini {
+    order: 1;
+    font-size: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 200px;
+}
+
+.hvor_lenge_har_holt_po {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h1, h1 {
+    color: white;
+    text-shadow: blue 9px 2px;
+    font-family: monospace;
+}
+
+.Tryllekunstneren {
+    font-size: 50px;
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anders-tørkle {
+    height: 500px;
+    width: auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: -450px;
+}
+
+
+.show {
+    height: 500px;
+    width: auto;
+}
+
+.due {
+    height: 500px;
+    width: auto;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+@media screen and (max-width: 768px) {
+    
+    .button{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center  
+}
+.div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-content: center;
+    }
+
+    .andini-med-kanin2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+}
+    .oal_bilde
+    {   
+        width: 270px;
+        height: auto;
+        border-radius: 50%;
+        margin-top: -200px;
+    }
+    .andini-med-kanin
+
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .andini {
+        font-size: 60px;
+        margin-top: -100px;
+    }
+
+    .due {
+        height: auto;
+        width: auto;
+    }
+
+    header {
+       display: none;
+    }
+
+    .anders-tørkle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-content: center;
+        height: 70%;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .show {
+        height: auto;
+        width: auto;
+    }
+
+    .div4 {
+        height: auto;
+        width: auto;
+        margin-top: 200px;
+        z-index: 1;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 300px;
+    }
+
+    h1, h1 {
+        font-size: 70px;
+        margin-top: 0px;
+    }
+
+    .Tryllekunstneren {
+        font-size: 30px;
+        margin-bottom: 100px;
+        margin-top: 0px;
+    }
+}
+
+
+.headerContent{
+display: flex;
+flex-direction: column;
+justify-content: start;}
+
+@media screen and (max-width: 1025) {
+
+.oal_bilde{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.header {
+    display: none;
+ }
+}
